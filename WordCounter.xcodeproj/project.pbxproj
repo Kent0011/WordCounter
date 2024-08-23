@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371CDAEC2C78450500C82AC7 /* WordCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371CDAEB2C78450500C82AC7 /* WordCounterApp.swift */; };
+		371CDAEE2C78450500C82AC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371CDAED2C78450500C82AC7 /* ContentView.swift */; };
+		371CDAF02C78450600C82AC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371CDAEF2C78450600C82AC7 /* Assets.xcassets */; };
+		371CDAF32C78450600C82AC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371CDAF22C78450600C82AC7 /* Preview Assets.xcassets */; };
+		371CDAFE2C78450700C82AC7 /* WordCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371CDAFD2C78450700C82AC7 /* WordCounterTests.swift */; };
+		371CDB082C78450700C82AC7 /* WordCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371CDB072C78450700C82AC7 /* WordCounterUITests.swift */; };
+		371CDB0A2C78450700C82AC7 /* WordCounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371CDB092C78450700C82AC7 /* WordCounterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		371CDAFA2C78450700C82AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371CDAE02C78450500C82AC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371CDAE72C78450500C82AC7;
+			remoteInfo = WordCounter;
+		};
+		371CDB042C78450700C82AC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371CDAE02C78450500C82AC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 371CDAE72C78450500C82AC7;
+			remoteInfo = WordCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		371CDAE82C78450500C82AC7 /* WordCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		371CDAEB2C78450500C82AC7 /* WordCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCounterApp.swift; sourceTree = "<group>"; };
+		371CDAED2C78450500C82AC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		371CDAEF2C78450600C82AC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		371CDAF22C78450600C82AC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		371CDAF42C78450600C82AC7 /* WordCounter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordCounter.entitlements; sourceTree = "<group>"; };
+		371CDAF92C78450700C82AC7 /* WordCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		371CDAFD2C78450700C82AC7 /* WordCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCounterTests.swift; sourceTree = "<group>"; };
+		371CDB032C78450700C82AC7 /* WordCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		371CDB072C78450700C82AC7 /* WordCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCounterUITests.swift; sourceTree = "<group>"; };
+		371CDB092C78450700C82AC7 /* WordCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		371CDAE52C78450500C82AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371CDAF62C78450700C82AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371CDB002C78450700C82AC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371CDADF2C78450500C82AC7 = {
+			isa = PBXGroup;
+			children = (
+				371CDAEA2C78450500C82AC7 /* WordCounter */,
+				371CDAFC2C78450700C82AC7 /* WordCounterTests */,
+				371CDB062C78450700C82AC7 /* WordCounterUITests */,
+				371CDAE92C78450500C82AC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		371CDAE92C78450500C82AC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371CDAE82C78450500C82AC7 /* WordCounter.app */,
+				371CDAF92C78450700C82AC7 /* WordCounterTests.xctest */,
+				371CDB032C78450700C82AC7 /* WordCounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		371CDAEA2C78450500C82AC7 /* WordCounter */ = {
+			isa = PBXGroup;
+			children = (
+				371CDAEB2C78450500C82AC7 /* WordCounterApp.swift */,
+				371CDAED2C78450500C82AC7 /* ContentView.swift */,
+				371CDAEF2C78450600C82AC7 /* Assets.xcassets */,
+				371CDAF42C78450600C82AC7 /* WordCounter.entitlements */,
+				371CDAF12C78450600C82AC7 /* Preview Content */,
+			);
+			path = WordCounter;
+			sourceTree = "<group>";
+		};
+		371CDAF12C78450600C82AC7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				371CDAF22C78450600C82AC7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		371CDAFC2C78450700C82AC7 /* WordCounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				371CDAFD2C78450700C82AC7 /* WordCounterTests.swift */,
+			);
+			path = WordCounterTests;
+			sourceTree = "<group>";
+		};
+		371CDB062C78450700C82AC7 /* WordCounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				371CDB072C78450700C82AC7 /* WordCounterUITests.swift */,
+				371CDB092C78450700C82AC7 /* WordCounterUITestsLaunchTests.swift */,
+			);
+			path = WordCounterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		371CDAE72C78450500C82AC7 /* WordCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371CDB0D2C78450700C82AC7 /* Build configuration list for PBXNativeTarget "WordCounter" */;
+			buildPhases = (
+				371CDAE42C78450500C82AC7 /* Sources */,
+				371CDAE52C78450500C82AC7 /* Frameworks */,
+				371CDAE62C78450500C82AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordCounter;
+			productName = WordCounter;
+			productReference = 371CDAE82C78450500C82AC7 /* WordCounter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		371CDAF82C78450700C82AC7 /* WordCounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371CDB102C78450700C82AC7 /* Build configuration list for PBXNativeTarget "WordCounterTests" */;
+			buildPhases = (
+				371CDAF52C78450700C82AC7 /* Sources */,
+				371CDAF62C78450700C82AC7 /* Frameworks */,
+				371CDAF72C78450700C82AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371CDAFB2C78450700C82AC7 /* PBXTargetDependency */,
+			);
+			name = WordCounterTests;
+			productName = WordCounterTests;
+			productReference = 371CDAF92C78450700C82AC7 /* WordCounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		371CDB022C78450700C82AC7 /* WordCounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 371CDB132C78450700C82AC7 /* Build configuration list for PBXNativeTarget "WordCounterUITests" */;
+			buildPhases = (
+				371CDAFF2C78450700C82AC7 /* Sources */,
+				371CDB002C78450700C82AC7 /* Frameworks */,
+				371CDB012C78450700C82AC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				371CDB052C78450700C82AC7 /* PBXTargetDependency */,
+			);
+			name = WordCounterUITests;
+			productName = WordCounterUITests;
+			productReference = 371CDB032C78450700C82AC7 /* WordCounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		371CDAE02C78450500C82AC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					371CDAE72C78450500C82AC7 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					371CDAF82C78450700C82AC7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 371CDAE72C78450500C82AC7;
+					};
+					371CDB022C78450700C82AC7 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 371CDAE72C78450500C82AC7;
+					};
+				};
+			};
+			buildConfigurationList = 371CDAE32C78450500C82AC7 /* Build configuration list for PBXProject "WordCounter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 371CDADF2C78450500C82AC7;
+			productRefGroup = 371CDAE92C78450500C82AC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				371CDAE72C78450500C82AC7 /* WordCounter */,
+				371CDAF82C78450700C82AC7 /* WordCounterTests */,
+				371CDB022C78450700C82AC7 /* WordCounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		371CDAE62C78450500C82AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371CDAF32C78450600C82AC7 /* Preview Assets.xcassets in Resources */,
+				371CDAF02C78450600C82AC7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371CDAF72C78450700C82AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371CDB012C78450700C82AC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371CDAE42C78450500C82AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371CDAEE2C78450500C82AC7 /* ContentView.swift in Sources */,
+				371CDAEC2C78450500C82AC7 /* WordCounterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371CDAF52C78450700C82AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371CDAFE2C78450700C82AC7 /* WordCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		371CDAFF2C78450700C82AC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				371CDB082C78450700C82AC7 /* WordCounterUITests.swift in Sources */,
+				371CDB0A2C78450700C82AC7 /* WordCounterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		371CDAFB2C78450700C82AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371CDAE72C78450500C82AC7 /* WordCounter */;
+			targetProxy = 371CDAFA2C78450700C82AC7 /* PBXContainerItemProxy */;
+		};
+		371CDB052C78450700C82AC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 371CDAE72C78450500C82AC7 /* WordCounter */;
+			targetProxy = 371CDB042C78450700C82AC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		371CDB0B2C78450700C82AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		371CDB0C2C78450700C82AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		371CDB0E2C78450700C82AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordCounter/WordCounter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WordCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S935BC6Z5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kent.WordCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		371CDB0F2C78450700C82AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WordCounter/WordCounter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WordCounter/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S935BC6Z5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kent.WordCounter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		371CDB112C78450700C82AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S935BC6Z5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kent.WordCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordCounter";
+			};
+			name = Debug;
+		};
+		371CDB122C78450700C82AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S935BC6Z5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kent.WordCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordCounter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordCounter";
+			};
+			name = Release;
+		};
+		371CDB142C78450700C82AC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S935BC6Z5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kent.WordCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WordCounter;
+			};
+			name = Debug;
+		};
+		371CDB152C78450700C82AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S935BC6Z5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kent.WordCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WordCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		371CDAE32C78450500C82AC7 /* Build configuration list for PBXProject "WordCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371CDB0B2C78450700C82AC7 /* Debug */,
+				371CDB0C2C78450700C82AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371CDB0D2C78450700C82AC7 /* Build configuration list for PBXNativeTarget "WordCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371CDB0E2C78450700C82AC7 /* Debug */,
+				371CDB0F2C78450700C82AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371CDB102C78450700C82AC7 /* Build configuration list for PBXNativeTarget "WordCounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371CDB112C78450700C82AC7 /* Debug */,
+				371CDB122C78450700C82AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		371CDB132C78450700C82AC7 /* Build configuration list for PBXNativeTarget "WordCounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				371CDB142C78450700C82AC7 /* Debug */,
+				371CDB152C78450700C82AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 371CDAE02C78450500C82AC7 /* Project object */;
+}
