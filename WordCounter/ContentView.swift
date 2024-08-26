@@ -14,16 +14,13 @@ struct ContentView: View {
         VStack() {
             TextField("テキストを入力", text:$inputText)
 //                .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
-            HStack(spacing:20){
+
                 Button("Reset"){
                     inputText = ""
                 }
-                Button("Count") {
-                    textnumber = inputText.count
-                }
-            }
-            Text("文字数 : \(textnumber)")
+            Text("文字数 : \(inputText.count)")
                 .padding()
+            Text("words : \(inputText.numberOfOccurrences(of: " ")+1)")
             
         }
         .frame(minWidth: 200, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity)

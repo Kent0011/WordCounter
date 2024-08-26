@@ -15,3 +15,18 @@ struct WordCounterApp: App {
         }
     }
 }
+
+extension String {
+    func numberOfOccurrences(of word: String) -> Int {
+        var count = 0
+        var nextRange = self.startIndex..<self.endIndex
+        if (self == ""){
+            return -1
+        }
+        while let range = self.range(of: word, options: .caseInsensitive, range: nextRange) {
+            count += 1
+            nextRange = range.upperBound..<self.endIndex
+        }
+        return count
+    }
+}
